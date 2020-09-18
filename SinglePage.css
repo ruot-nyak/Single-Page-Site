@@ -110,11 +110,11 @@ a {
 
 
 /* Create some cards in this section */
-#amgvs911 {
+#amgvs911vsm4 {
     background-color: #26323f;
 }
 
-#amgvs911 > ul {
+#amgvs911vsm4 > ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -123,7 +123,7 @@ a {
     align-items: baseline;
 }
 
-#amgvs911 > h2 {
+#amgvs911vsm4 > h2 {
     margin: 1em;
     font-size: 5em;
     text-align: center;
@@ -131,19 +131,22 @@ a {
     
 }
 
-#amgvs911{
-    background-image: url(Images/benzvs911.jpg);
+#amgvs911vsm4{
+    background-image: url(Images/smoke.gif);
 }
 
 .card {
-    width: 400px;
+    width: 1000px;
     margin: 4em;
     background-color: #eee;
     box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+    
+
 
 }
 
@@ -190,41 +193,48 @@ a {
 
 }
 
+dd {
+    list-style: cross-fade();
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+}
+
 
 /* Style this */
-#suzanne-ciani {
-    background-color: #461c3b;
+#og911 {
+    background-color: black;
     display: flex;
     color: #fff;
     background-image: url(images/sound-texture.jpg);
     background-size: cover;
 }
 
-#suzanne-ciani > div {
+#og911 > div {
     display: flex;
     justify-content: center;
     width: 75%;
     margin: auto;
 }
 
-#suzanne-ciani h2, #suzanne-ciani p {
+#og911 h2, #suzanne-ciani p {
     margin: 0 0 1rem 0;
 }
 
-#suzanne-ciani h2 {
+#og911 h2 {
     font-size: 2em;
 }
 
-#suzanne-ciani > div > div:nth-child(1) {
+#og911> div > div:nth-child(1) {
     flex: 3;
     margin: 0 2em 0 0;
 }
 
-#suzanne-ciani > div > div:nth-child(2) {
+#og911 > div > div:nth-child(2) {
     flex: 2;
 }
 
-#suzanne-ciani > div img {
+#og911 > div img {
     width: 100%;
     box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
 }
