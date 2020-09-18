@@ -1,0 +1,285 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #1d1818;
+    line-height: 1.5;
+}
+main, footer {
+    min-height:100vh;
+
+}
+
+#home{
+    background-image: url(Images/porschedrift.gif);
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: baseline;
+    align-items: flex-end;
+    background-color: black;
+}
+
+#home2 {
+    background-color: black;
+    padding: 1em;
+    color: white;
+
+}
+
+nav, main > section {
+    overflow: auto;
+}
+
+main > section, main > footer {
+    min-height: 100vh;
+}
+
+/* Style the nav bar */
+.navbar {
+   display: flex;
+   flex-direction: row;
+   font-size: 28px;
+   position: fixed;
+   z-index: 1;
+   align-items: flex-end;
+   padding: 1em;
+   background-color: black;
+}
+
+h1, ul {
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+ ul {
+    display: flex;
+    list-style: none;
+}
+
+
+
+#PorscheBadge {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    align-items: flex-start;
+    width: 60px;
+    height: auto;
+}
+
+
+#PorscheDrift {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+
+#cover {
+    background-color: rgb(168, 149, 149);
+    background-image: url(PorscheBadge.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+    color: #fff;
+}
+
+#cover > div {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+    left: -290px;
+    top: 180px;
+    font-size: 60px;
+}
+
+#cover h2, #cover p {
+    margin: 0;
+    text-shadow: 0 0 20px #000000;
+}
+
+
+/* Create some cards in this section */
+#amgvs911 {
+    background-color: #26323f;
+}
+
+#amgvs911 > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#amgvs911 > h2 {
+    margin: 1em;
+    font-size: 5em;
+    text-align: center;
+    color: #eee;
+    
+}
+
+#amgvs911{
+    background-image: url(Images/benzvs911.jpg);
+}
+
+.card {
+    width: 400px;
+    margin: 4em;
+    background-color: #eee;
+    box-shadow: 0 0 22px rgba(0, 0, 0, 0.44);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    font-size: 2em;
+}
+
+.card h3, .card p {
+    margin: 1rem;
+}
+
+#specs {
+    background-color: #5856D6;
+    background-image: url(images/911specs.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#specs > div {
+    background-color:rgba(255, 255, 255, 0.65);
+    padding: 2em;
+    width: 75%;
+    max-width: 700px;
+}
+
+#specs  h2 {
+    font-size: 4em;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+#specs > li {
+
+    list-style: cross-fade();
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+/* Style this */
+#suzanne-ciani {
+    background-color: #461c3b;
+    display: flex;
+    color: #fff;
+    background-image: url(images/sound-texture.jpg);
+    background-size: cover;
+}
+
+#suzanne-ciani > div {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+#suzanne-ciani h2, #suzanne-ciani p {
+    margin: 0 0 1rem 0;
+}
+
+#suzanne-ciani h2 {
+    font-size: 2em;
+}
+
+#suzanne-ciani > div > div:nth-child(1) {
+    flex: 3;
+    margin: 0 2em 0 0;
+}
+
+#suzanne-ciani > div > div:nth-child(2) {
+    flex: 2;
+}
+
+#suzanne-ciani > div img {
+    width: 100%;
+    box-shadow:0 0 22px rgba(0, 0, 0, 0.44);
+}
+
+
+#contact {
+    background-color: #FF9500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact > form {
+    display: flex;
+}
+
+#contact > form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 1em 0;
+}
+
+label span {
+    margin: 1em 0;
+}
+
+input, textarea {
+    border: 1px solid #000;
+    padding: 0.5em;
+    margin: 0 2em 0 0;
+    width: 20em;
+    font-size: 1em;
+}
+
+textarea {
+    height: 9em;
+    margin: 0 0 0 0;
+}
+
+form button {
+    width: auto;
+    font-size: 1em;
+    margin: 1em 0;
+    align-self: flex-end;
+    padding: 0.5em 1em;
+    background-color:rgb(0, 0, 0);
+    color: #fff;
+    border: none;
+}
